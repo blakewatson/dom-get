@@ -10,7 +10,10 @@
 	
 	<body>
 		<h1 id="title">Test</h1>
-		<div class="button-wrap"><button class="btn">Hello</button></div>
+		<div class="button-wrap">
+			<button class="btn">Hello</button>
+			<button class="off">Off</button>
+		</div>
 		<ul>
 			<li>List item 1</li>
 			<li>List item 2</li>
@@ -22,7 +25,15 @@
 		<script src="index.js"></script>
 
 		<script>
-			console.log(dom('div'));
+			
+			var $button = dom('.btn').on('click', function() {
+				dom('ul').hide();
+			});
+
+			dom('.off').on('click', function() {
+				$button.off('click');
+			});
+
 		</script>
 	</body>
 	
