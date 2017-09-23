@@ -1,11 +1,15 @@
 {
   "name": "dom-get",
-  "version": "1.0.0",
-  "description": "A smattering of jQuery-like DOM functions using basic JavaScript APIs.",
+  "version": "0.1.0",
+  "description": "A tiny utility for selecting DOM elements and adding event listeners.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Blake Watson",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+  	"type": "git",
+  	"url": "git@github.com:blakewatson/dom-get.git"
+  }
 }
