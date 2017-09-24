@@ -1,6 +1,6 @@
 {
   "name": "dom-get",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tiny utility for selecting DOM elements and adding event listeners.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Blake Watson",
   "license": "MIT",
   "repository": {
-  	"type": "git",
-  	"url": "git@github.com:blakewatson/dom-get.git"
+    "type": "git",
+    "url": "git@github.com:blakewatson/dom-get.git"
   }
 }
