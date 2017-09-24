@@ -7,7 +7,7 @@ A tiny utility for selecting DOM elements and adding event listeners. It uses a 
 You can include it directly in the browser:
 
 ```
-<script src="/dom-get.js"></script>
+<script src="dom-get.js"></script>
 ```
 
 Or install it with npm:
@@ -20,7 +20,7 @@ npm install dom-get
 
 ```
 dom('button').on('click', function(event) {
-	// do something
+    // do something
 });
 ```
 
