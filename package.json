@@ -2,7 +2,7 @@
   "name": "dom-get",
   "version": "0.1.1",
   "description": "A tiny utility for selecting DOM elements and adding event listeners.",
-  "main": "index.js",
+  "main": "dom-get.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
