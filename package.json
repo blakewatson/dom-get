@@ -1,6 +1,6 @@
 {
   "name": "dom-get",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A tiny utility for selecting DOM elements and adding event listeners.",
   "main": "dom-get.js",
   "scripts": {
